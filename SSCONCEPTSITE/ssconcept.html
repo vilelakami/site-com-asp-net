@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SS CONCEPT</title>
+	<link href="stylesheet.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: yellow;
+			height: 100%;
+		}
+		/* estilização do menu */
+		.nav {
+			background-color: black;
+			display: flex;
+			height: 70px;
+			width: 100%;
+			align-items: center;
+			justify-content: space-between;
+			box-sizing: border-box;
+		}
+
+		.logo-name {
+			height: 30px;
+			margin-bottom: 10px;
+			margin-left: 40px;
+		}
+
+		.logo-name h1 {
+			color: white;
+			margin: 0 auto;
+			font-size: 35px;
+			font-family: 'Racing Sans One', sans-serif;
+		}
+
+		.itens-nav {
+			display: flex;
+			margin: 0 auto;
+			padding: 0 auto;
+			list-style: none;
+			align-items: center;
+		}
+
+		.nav-item {
+			padding: 10px;
+		}
+
+		.item {
+			text-decoration: none;
+			font-size: 20px;
+			font-family: 'Ancizar Sans', sans-serif;
+			color: white;
+		}
+
+		a:hover {
+			color: yellow;
+		}
+		/* estilização do carrossel */
+		.carrossel {
+			position: relative;
+			width: 100%;
+			height: 500px;
+			overflow: hidden;
+			border-bottom: 30px solid yellow;
+		}
+
+		.slides {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		.slide {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: none;
+			object-fit: cover;
+
+		}
+
+		.slide.active {
+			display: block;
+		}
+
+		button.prev,
+		button.next {
+			position: absolute;
+			top: 50%;
+			border: none;
+			font-size: 2rem;
+			background-color: transparent;
+		}
+
+		button.prev {
+			left: 10px;
+		}
+
+		button.next {
+			right: 10px;
+		}
+		/* estilização dos destaques */
+		.container {
+			background-color: black;
+			margin: 0;
+			padding: 5px;
+			max-width: 1400px;
+			height: 500px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.titulo-destaques h1 {
+			background-color: black;
+			color: yellow;
+			font-size: 35px;
+			padding: 10px;
+			padding-left: 115px;
+			padding-top: 15px;
+			font-family: 'Ancizar Sans', sans-serif;
+			margin: 0;
+		}
+
+		.card {
+			margin: 30px;
+			margin-top: 5px;
+			padding: 15px;
+			width: 330px;
+		}
+
+		.foto-destaque {
+			width: 300px;
+			height: 200px;
+			justify-content: center;
+		}
+		/* estilização do texto inicial */
+		.text-inicio {
+			background-color: yellow;
+			width: 100%;
+			height: 70px;
+		}
+
+		.text-inicio h1 {
+			font-size: 24px;
+			text-align: center;
+			padding-top: 3px;
+		}
+
+		.text-inicio p {
+			text-align: center;
+		}
+		/* estilização destaques + textos */
+		.tipos-destaques{
+			background-color: white;
+			border-bottom: 20px solid yellow;
+		}
+		.tipos-destaques h1{
+			font-size: 24px;
+			font-family: 'Racing Sans One', sans-serif;
+			padding: 10px;
+			padding-left: 115px;
+		}
+		.tipos-destaques p{
+			font-size: 18px;
+			padding-left: 110px;
+			margin: 5px
+		}
+		.rodape{
+			background-color: black;
+			margin: 0;
+			padding: 0;
+		}
+		.rodape p{
+			font-size: 18px;
+			text-align: center;
+			margin: 5px;			
+			color: rgba(211, 211, 211, 0.548);
+		}
+
+	</style>
+	<!-- menu de navegação -->
+	<div class="nav">
+		<div class="logo-name">
+			<h1>SS CONCEPT</h1>
+		</div>
+		<ul class="itens-nav">
+			<li class="nav-item"><a class="item" href="ssconcept.html"> Página Inicial</a></li>
+			<li class="nav-item"><a class="item" href=#destaques> Destaques</a></li>
+			<li class="nav-item"><a class="item" href="galeria.html"> Galeria</a></li>
+			<li class="nav-item"><a class="item" href="orcamento.html"> Orçamento</a></li>
+		</ul>
+	</div>
+	<!-- texto inicial -->
+	<div class="text-inicio">
+		<h1> Bem-vindo a SS!</h1>
+		<p> Empresa especializada em sons automotivos. </p>
+	</div>
+	<!-- carrossel de imagens -->
+	<div class="carrossel">
+		<div class="slides">
+			<img src="imagens/foto2.jpg" class="slide active">
+			<img src="imagens/foto1.jpg" class="slide">
+			<img src="imagens/foto3.png" class="slide">
+		</div>
+		<button class="prev" onclick="mudarSlide(-1)">&#10633;</button>
+		<button class="next" onclick="mudarSlide(1)">&#10634;</button>
+	</div>
+	<!-- tópico destaques -->
+	<div id="destaques" class="titulo-destaques">
+		<h1> Destaques </h1>
+	</div>
+	<!-- container com a parte dos destaques -->
+	<div class="container">
+		<div class="card">
+			<img src="imagens/porsche.jpeg" class="foto-destaque">
+			<h1> PORSCHE </h1>
+			<p> Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+		</div>
+
+		<div class="card">
+			<img src="imagens/mercedes.jpg" class="foto-destaque">
+			<h1> MERCEDEZ </h1>
+			<p> Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+		</div>
+
+		<div class="card">
+			<img src="imagens/audi.jpg" class="foto-destaque">
+			<h1> AUDI </h1>
+			<p> Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+		</div>
+	</div>
+	<!-- container com os tipos de trabalhos -->
+	 <div class="tipos-destaques">
+		<h1> PORSCHE </h1>
+		<p> A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e seu filho Ferry Porsche. </p>
+		<p> Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido.Em 1934, Ferdinand Porsche, depois de lhe ser solicitado a criação de um automóvel acessível a todos os alemães, criou o Volkswagen Fusca.[5] O Fusca serviu de base mecânica ao Type 64 criado em 1939 e ao Porsche 356 produzido em 1948, sendo este o primeiro Porsche a ser produzido. </p>
+		<p> O Porsche 356 recorria em grande parte às peças utilizadas no Volkswagen Fusca, tais como motorização traseira com refrigeração a ar. Mais tarde o 356 viria a ser totalmente construído a partir de peças Porsche.</p>
+		<h1> MERCEDEZ</h1>
+		<p> A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e seu filho Ferry Porsche. </p>
+		<p> Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido.Em 1934, Ferdinand Porsche, depois de lhe ser solicitado a criação de um automóvel acessível a todos os alemães, criou o Volkswagen Fusca.[5] O Fusca serviu de base mecânica ao Type 64 criado em 1939 e ao Porsche 356 produzido em 1948, sendo este o primeiro Porsche a ser produzido. </p>
+		<h1> AUDI</h1>
+		<p> A marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e seu filho Ferry Porsche. </p>
+		<p> Ferdinand Porsche já era conhecido antes de fundar a Porsche, ele havia trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido.Em 1934, Ferdinand Porsche, depois de lhe ser solicitado a criação de um automóvel acessível a todos os alemães, criou o Volkswagen Fusca.[5] O Fusca serviu de base mecânica ao Type 64 criado em 1939 e ao Porsche 356 produzido em 1948, sendo este o primeiro Porsche a ser produzido. </p>
+	 </div>
+	 <!-- rodapé -->
+	 <footer class="rodape"> 
+		<p> 2025 - SS CONCEPT</p>
+		<p> Rua Silvio Padovani - 06, 04475060</p>
+		<p> 5667-1868</p>
+	 </footer>
+	<script src="script.js"></script>
+</body>
+
+</html>

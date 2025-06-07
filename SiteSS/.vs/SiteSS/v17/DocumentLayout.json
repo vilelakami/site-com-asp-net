@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Flavinn\\source\\repos\\SiteSS\\",
+  "WorkspaceRootPath": "C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|c:\\users\\flavinn\\source\\repos\\sitess\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|c:\\users\\flavinn\\source\\repos\\site-com-asp-net\\sitess\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|c:\\users\\flavinn\\source\\repos\\sitess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB4DE9ED-DD84-491E-95E3-36265FDD2DA1}|SiteSS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Flavinn\\source\\repos\\SiteSS\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Flavinn\\source\\repos\\SiteSS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T23:52:40.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T23:52:40.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Flavinn\\source\\repos\\SiteSS\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Flavinn\\source\\repos\\SiteSS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Flavinn\\source\\repos\\site-com-asp-net\\SiteSS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-04T22:10:55.738Z",
               "EditorCaption": ""
